@@ -5,6 +5,7 @@
     },
     "extends": [
         "plugin:react/recommended",
+        "prettier/react",
         "standard"
     ],
     "globals": {
@@ -19,8 +20,10 @@
         "sourceType": "module"
     },
     "plugins": [
-        "react"
+        "react",
+        "prettier"
     ],
     "rules": {
+      "prettier/prettier":"error"
     }
 }
