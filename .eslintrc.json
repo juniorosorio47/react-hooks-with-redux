@@ -21,6 +21,7 @@
     "prettier/prettier": "error",
     "space-before-function-paren": 0,
     "comma-dangle": "off",
-    "no-console": ["error", { "allow": ["tron"] }]
+    "no-console": ["error", { "allow": ["tron"] }],
+    "generator-star-spacing": 0
   }
 }
